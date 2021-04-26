@@ -14,7 +14,7 @@ bundle add kramdown-parser-gfm-extractions
 
 Simply require the gem, pass the relevant input option to Kramdown, and you'll get the appropriate HTML output as well as an array of extractions.
 
-```ruby
+~~~ruby
 require "kramdown"
 require "kramdown-parser-gfm-extractions"
 
@@ -39,7 +39,7 @@ MD
 doc = Kramdown::Document.new(text, {input: :GFMExtractions})
 html = doc.to_html
 extractions = doc.root.options[:extractions]
-```
+~~~
 
 The above example, the `js script` block and the `html preview-story` block would both be extracted. In the list of extractions available via `doc.root.options[:extractions]`, you'd obtain hashes with the following keys:
 
