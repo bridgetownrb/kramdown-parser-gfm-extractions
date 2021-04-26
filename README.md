@@ -41,7 +41,7 @@ html = doc.to_html
 extractions = doc.root.options[:extractions]
 ~~~
 
-The above example, the `js script` block and the `html preview-story` block would both be extracted. In the list of extractions available via `doc.root.options[:extractions]`, you'd obtain hashes with the following keys:
+In this example, the `js script` block and the `html preview-story` block would both be extracted. In the list of extractions available via `doc.root.options[:extractions]`, you'd obtain hashes with the following keys:
 
 * **lang** - the language code (js, html, etc.)
 * **meta** - the meta string (script, preview-story, etc.)
