@@ -1,5 +1,10 @@
 # kramdown-parser-gfm-extractions
 
+> [!WARNING]
+> This plugin is considered "as-is" and I don't anticpate developing it any further. If you submit an interesting PR, I'm willing to merge it, but otherwise…it's done.
+
+----
+
 A [Kramdown](https://kramdown.gettalong.org) parser extension which provides support for extracting fenced code blocks featuring meta (for example `js script` or `html preview-story`). Useful for supporting the [Markdown JavaScript (mdjs) format](https://rocket.modern-web.dev/docs/markdown-javascript/overview/).
 
 ## Installation
